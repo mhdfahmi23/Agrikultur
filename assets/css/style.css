@@ -1,0 +1,221 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 5px;
+    background-color: #f3f1f1;
+}
+
+header {
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    color:#f3f1f1;
+}
+
+menu{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2ecf67;
+    
+}
+
+li {
+    display: inline;
+     
+}
+
+li a {
+    display: block;
+    color: #f3f1f1;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.7s all; 
+}
+
+
+
+li a:hover {
+    background-color: rgb(25, 151, 31);
+}
+
+
+
+
+article{
+    padding: 20px;
+}
+
+
+.kiri {   
+    float: left;
+    width: 75%;
+}
+
+
+.kanan {
+    float: left;
+    width: 25%;
+    background-color: #f3f1f1;
+    padding-left: 20px;
+    padding-right: 5px;
+    
+}
+
+@media screen and (max-width: 800px) {
+    .kiri, .kanan {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+.fakeimg {
+    background-color:#cf9b2e;
+    width: 100%;
+    
+}
+
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bagian-footer {
+    background-color: black;
+    color:#def5e6;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: 12px sans-serif;
+    padding: 35px 30px;
+    margin-top: 7px;
+}
+
+.bagian-footer .bag-kiri{
+    width: 30%;
+}
+
+.bagian-footer .bag-tengah{
+    width: 30%;
+    text-align: center;
+}
+
+.bagian-footer .bag-kanan{
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+
+.bagian-footer.tentang{
+    line-height: 20px;;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.bagian-footer.tentang span{
+    display: block;
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bagian-footer .bag-kiri, .bagian-footer .bag-kanan, .bagian-footer .bag-tengah{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+
+.menu .search {
+    float: right;
+    padding: 6px;
+    border-radius: 25px;
+    margin-right: 20px;
+    font-size: 17px;
+    background-position: right;
+}
+
+.menu .form .search button{
+    float: right;
+    padding: 3px 5px;
+    background-color: #27ae60;
+    color: #27ae60;
+    font-size: 15px;
+    border: 1px #27ae60 ;
+    border-left: none;
+    cursor: pointer;
+}
+
+.bagian-footer  p{
+    color:#ffffff;
+}
+
+#gotopbtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    z-index: 99;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background-color: rgb(27, 209, 10);
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 4px;
+  }
+  
+  
+  #gotopbtn:hover {
+    background-color: #555;
+  }
+
+
+
+
+  
+ 
+  
+
+
