@@ -1,5 +1,7 @@
 <?php
     include 'header.php';
+    $koneksi = new mysqli("localhost", "root", "", "agri");
+
 ?>
 
 <style>
@@ -120,10 +122,30 @@ p{
       </div>
     </div>
     <div class="row">
-      <input type="submit" value="Submit">
+      <input type="submit" value="Submit" name="save">
     </div>
   </form>
 </div>
+
+
+
+<?php
+if (isset($_POST['save']))
+{
+
+  $nama = $_POST['firstname'];
+  $email = $_POST['lastname'];
+  $perihal = $_POST['country'];
+  $pertanyaan = $_POST['subject'];
+
+  $koneksi->query("INSERT INTO konsultasi ( nama, email_k, perihal, pertanyaan)
+    VALUES ('$nama', '$email', '$perihal', '$pertanyaan')");
+
+
+  echo "<div class='alert alert-info'>Data Tersimpan</div>";
+}
+?>
+
 
 <?php
     include 'footer.php';
