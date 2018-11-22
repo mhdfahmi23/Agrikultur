@@ -84,7 +84,7 @@ p{
 <p>Silahkan isi Formulir dibawah untuk melakukan konsultasi</p>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form method="post" action="">
     <div class="row">
       <div class="col-25">
         <label for="fname">Nama</label>
@@ -106,7 +106,7 @@ p{
         <label for="country">Jenis Konsultasi</label>
       </div>
       <div class="col-75">
-        <select id="country" name="country">
+        <select id="country" name="pilihan">
           <option value="keluhan">Keluhan</option>
           <option value="tips">Tips</option>
           <option value="saran">Saran</option>
@@ -118,7 +118,7 @@ p{
         <label for="subject">Konsultasi</label>
       </div>
       <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Tulis sesuatu.." style="height:200px"></textarea>
+        <textarea id="subject" name="isi" placeholder="Tulis sesuatu.." style="height:200px"></textarea>
       </div>
     </div>
     <div class="row">
@@ -135,8 +135,8 @@ if (isset($_POST['save']))
 
   $nama = $_POST['firstname'];
   $email = $_POST['lastname'];
-  $perihal = $_POST['country'];
-  $pertanyaan = $_POST['subject'];
+  $perihal = $_POST['pilihan'];
+  $pertanyaan = $_POST['isi'];
 
   $koneksi->query("INSERT INTO konsultasi ( nama, email_k, perihal, pertanyaan)
     VALUES ('$nama', '$email', '$perihal', '$pertanyaan')");
