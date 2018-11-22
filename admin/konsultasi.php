@@ -4,8 +4,8 @@
   <thead>
     <tr>
         <th>nomor</th>
+        <th>nama</th>
         <th>email</th>
-        <th>nomor hp</th>
         <th>perihal</th>
         <th>pertanyaan</th>
         <th>aksi</th>
@@ -18,8 +18,8 @@
     <?php while($pecah = $ambil->fetch_assoc()){ ?>
       <tr>
         <td><?php echo $nomor; ?></td>
+        <td><?php echo $pecah['nama']; ?></td>
         <td><?php echo $pecah['email_k']; ?></td>
-        <td><?php echo $pecah['hp_k']; ?></td>
         <td><?php echo $pecah['perihal']; ?></td>
         <td><?php echo $pecah['pertanyaan']; ?></td>
         <td>
