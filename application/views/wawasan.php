@@ -14,14 +14,22 @@
     <?php $ambil=$koneksi->query("select *from wawasan"); ?>
     <?php while($pecah = $ambil->fetch_assoc()){ ?>
     <h3><?php echo $pecah['judul_w']; ?></h3>
-    <?php echo $pecah['foto_w']; ?>
-    <br><?php echo $pecah['date_w']; ?></br>
+
+    <img src="<?php echo site_url(); ?>assets/<?php echo $pecah['foto_w']; ?>">
+
+    <br> posted : <?php echo $pecah['date_w']; ?></br>
     <p><?php echo $pecah['isi_w']; ?></p>
 
       </td>
       </tr>
+      <br></br>
+
+      <br></br>
+
+      <br></br>
       <?php $nomor++; ?>
     <?php } ?>
+
   </tbody>
 
 </table>
