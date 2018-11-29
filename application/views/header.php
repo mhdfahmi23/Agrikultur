@@ -34,6 +34,7 @@
                     <li><a href="<?php echo site_url('acara')?>">ACARA</a></li>
                     <li><a href="<?php echo site_url('ebook')?>">EBOOK</a></li>
                     <li><a href="<?php echo site_url('konsultasi')?>">KONSULTASI</a></li> 
+                    <li><a href="<?php echo site_url('tentang')?>">TENTANG</a></li>
                     
                     <div class = "search" >
 

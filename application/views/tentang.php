@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 		<div class="col-sm-4">
 			<div class="card">
-			      <center><img src="<?=base_url()?>assets/img/AboutUs/Apin.jpeg" alt="cawi" style="width:330px"></center>
+			      <center><img src="<?=base_url()?>assets/img/AboutUs/ggg.jpeg" alt="cawi" style="width:330px"></center>
 			      <div class="container">
 			      	<br>
 			        <center><h4>Reza Pahlevi</h4></center>
@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 		<div class="col-sm-4">
 			<div class="card">
-			      <center><img src="<?=base_url()?>assets/img/AboutUs/Apin.jpeg" alt="cawi" style="width:330px"></center>
+			      <center><img src="<?=base_url()?>assets/img/AboutUs/ggg.jpeg" alt="cawi" style="width:330px"></center>
 			      <div class="container">
 			      	<br>
 			        <center><h4>Gilang Ramadhan</h4></center>
@@ -65,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 		<div class="col-sm-4">
 			<div class="card">
-			      <center><img src="<?=base_url()?>assets/img/AboutUs/Apin.jpeg" alt="cawi" style="width:330px"></center>
+			      <center><img src="<?=base_url()?>assets/img/AboutUs/ggg.jpeg" alt="cawi" style="width:330px"></center>
 			      <div class="container">
 			      	<br>
 			        <center><h4>Fardiansyah S. Harahap</h4></center>
@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 		<div class="col-sm-4">
 			<div class="card">
-			      <center><img src="<?=base_url()?>assets/img/AboutUs/Apin.jpeg" alt="cawi" style="width:330px"></center>
+			      <center><img src="<?=base_url()?>assets/img/AboutUs/ggg.jpeg" alt="cawi" style="width:330px"></center>
 			      <div class="container">
 			      	<br>
 			        <center><h4>Muhammad Fahmi Akbar</h4></center>
